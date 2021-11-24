@@ -16,4 +16,13 @@ PUBLIC_KEY=<<your public key>>
 EOF
 
 npx hardhat compile
+#npx hardhat run scripts/deploy.js --network ropsten
+#Contract deployed to address: 0xA61d5349B2DD0DE7aD48291008CEA6Ca109CD6d7
+#Contract deployed to address: 0x9E1752E5860F46c200081C40CB735D08CeE540f6
+```
+3. copy to pista
+
+4. mint
+```
+#node scripts/mint-nft.js
 ```
