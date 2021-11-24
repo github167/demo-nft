@@ -93,10 +93,26 @@ const layersSetup = (layersOrder) => {
   const layers = layersOrder.map((layerObj, index) => ({
     id: index,
     elements: getElements(`${layersDir}/${layerObj.name}/`),
-    name: layerObj.name,
-    blend: "source-over",
-    opacity: 1,
-    bypassDNA: false,
+    name:
+      //layerObj.options["displayName"] != undefined
+	  0
+        ? layerObj.options["displayName"]
+        : layerObj.name,
+    blend:
+      //layerObj.options["blend"] != undefined
+	  0
+        ? layerObj.options["blend"]
+        : "source-over",
+    opacity:
+      //layerObj.options["opacity"] != undefined
+	  0
+        ? layerObj.options["opacity"]
+        : 1,
+    bypassDNA:
+      //layerObj.options["bypassDNA"] !== undefined
+	  0
+        ? layerObj.options["bypassDNA"]
+        : false,
   }));
   return layers;
 };
@@ -420,4 +436,4 @@ module.exports = { startCreating, buildSetup, getElements };
 
 
 EOF
-
+npm run build
