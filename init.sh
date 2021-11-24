@@ -96,22 +96,22 @@ const layersSetup = (layersOrder) => {
     name:
       //layerObj.options?.["displayName"] != undefined
 	  0
-        ? layerObj.options?.["displayName"]
+        ? //layerObj.options?.["displayName"]
         : layerObj.name,
     blend:
       //layerObj.options?.["blend"] != undefined
 	  0
-        ? layerObj.options?.["blend"]
+        ? //layerObj.options?.["blend"]
         : "source-over",
     opacity:
       //layerObj.options?.["opacity"] != undefined
 	  0
-        ? layerObj.options?.["opacity"]
+        ? //layerObj.options?.["opacity"]
         : 1,
     bypassDNA:
       //layerObj.options?.["bypassDNA"] !== undefined
 	  0
-        ? layerObj.options?.["bypassDNA"]
+        ? //layerObj.options?.["bypassDNA"]
         : false,
   }));
   return layers;
