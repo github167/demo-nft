@@ -436,4 +436,3 @@ module.exports = { startCreating, buildSetup, getElements };
 
 
 EOF
-npm run build
