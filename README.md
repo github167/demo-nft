@@ -10,4 +10,5 @@ cd hashlips_art_engine
 2. run and inspect the build folder
 ```
 npm run build
+#npx http-server
 ```
