@@ -21,6 +21,7 @@ npx hardhat compile
 # e.g. const contractAddress = "0xA61d5349B2DD0DE7aD48291008CEA6Ca109CD6d7"
 
 ```
+
 3. mint
 ```
 #modify pinata if you want to upload new image
