@@ -17,8 +17,9 @@ EOF
 
 npx hardhat compile
 #npx hardhat run scripts/deploy.js --network ropsten
-#Contract deployed to address: 0xA61d5349B2DD0DE7aD48291008CEA6Ca109CD6d7
-#Contract deployed to address: 0x9E1752E5860F46c200081C40CB735D08CeE540f6
+# Update contractAddress in mint-nft.js for new ropsten contract address
+# e.g. const contractAddress = "0xA61d5349B2DD0DE7aD48291008CEA6Ca109CD6d7"
+
 ```
 3. mint
 ```
