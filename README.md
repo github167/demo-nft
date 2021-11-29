@@ -25,6 +25,6 @@ npx hardhat compile
 3. mint
 ```
 #modify pinata if you want to upload new image
-#hash P01:wahxlnzsbhpzqwggku@mrvpm.net#VV2g45DyfY44:frsgkcotlbsaqnitef@pptrvv.com
+#hash VV2g45DyfY44:wahxlnzsbhpzqwggku@mrvpm.net#P01:frsgkcotlbsaqnitef@pptrvv.com
 node scripts/mint-nft.js
 ```
