@@ -1,30 +1,15 @@
 
-Goto: https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/
+Goto: https://medium.com/scrappy-squirrels/tutorial-writing-an-nft-collectible-smart-contract-9c7e235e96da
 
 1. Create scripts and npm install
 ```
-curl -LSfs https://raw.githubusercontent.com/github167/demo-nft/simple-nft-ropsten/init.sh | sh
-cd my-nft
+curl -LSfs https://raw.githubusercontent.com/github167/demo-nft/nft-collectible-contract/init.sh | sh
+cd nft-collectible-contract
 ```
 
-2. compile
+2. run
 ```
-cat << EOF > .env
-API_URL=https://eth-ropsten.alchemyapi.io/v2/-85Y6azzTCmhKOMo3ffwrl1MxyuSHOHN
-PRIVATE_KEY=<<your private key>>
-PUBLIC_KEY=<<your public key>>
-EOF
+npx hardhat run scripts/run.js
+```
+3. For deploying to other network or perform verification on etherscan, read the original tutorial
 
-npx hardhat compile
-#npx hardhat run scripts/deploy.js --network ropsten
-# Update contractAddress in mint-nft.js for new ropsten contract address
-# e.g. const contractAddress = "0xA61d5349B2DD0DE7aD48291008CEA6Ca109CD6d7"
-
-```
-
-3. mint
-```
-#modify pinata if you want to upload new image
-#hash P01:wahxlnzsbhpzqwggku@mrvpm.net#P01:frsgkcotlbsaqnitef@pptrvv.com
-node scripts/mint-nft.js
-```
