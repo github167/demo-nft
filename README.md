@@ -1,15 +1,15 @@
+youtube: https://www.youtube.com/watch?v=UBGXFV1TQxc
+github: https://github.com/HashLips/solidity_smart_contracts/tree/main/contracts/NFT_ON_CHAIN
 
-Goto: https://medium.com/scrappy-squirrels/tutorial-writing-an-nft-collectible-smart-contract-9c7e235e96da
+1. open remix
+2. select "Load from Github" and paste links of Base64.sol and NFT-onchain.sol
+2. Compile, deploy and test
 
-1. Create scripts and npm install
-```
-curl -LSfs https://raw.githubusercontent.com/github167/demo-nft/nft-collectible-contract/init.sh | sh
-cd nft-collectible-contract
-```
+To Rinkeby
+1. switch metamask to rinkeby network
+2. deploy
+3. jot down the contract address
+4. flattern the sol and go to https://rinkeby.etherscan.io/ to verify the contract
 
-2. run
-```
-npx hardhat run scripts/run.js
-```
-3. For deploying to other network or perform verification on etherscan, read the original tutorial
-
+Same for NFT_FULL_COMMISSION.sol
+1. remove commission in mint and withdrawal if needed
