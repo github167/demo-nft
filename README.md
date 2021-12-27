@@ -9,7 +9,7 @@ Goto remix: https://remix.ethereum.org
 
 To Rinkeby
 1. switch metamask to rinkeby network
-2. deploy
+2. deploy using metamask
 3. jot down the contract address
 4. flattern the sol and go to https://rinkeby.etherscan.io/ to verify the contract
 
