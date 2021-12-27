@@ -1,8 +1,10 @@
 youtube: https://www.youtube.com/watch?v=UBGXFV1TQxc
+
 github: https://github.com/HashLips/solidity_smart_contracts/tree/main/contracts/NFT_ON_CHAIN
 
-1. open remix
-2. select "Load from Github" and paste links of Base64.sol and NFT-onchain.sol
+Goto remix: https://remix.ethereum.org
+
+1. select "Load from Github" and paste links of Base64.sol and NFT-onchain.sol
 2. Compile, deploy and test
 
 To Rinkeby
